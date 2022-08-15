@@ -1,0 +1,12 @@
+---
+name: pinyin_simp.extended
+note: "扩展词库"
+version: "2019-09-06"
+last_edit_time: "2020-04-19"
+dict_grouped: true 
+sort: original
+
+...
+
+客官	ke guan	100
+双拼	shuang pin	100
