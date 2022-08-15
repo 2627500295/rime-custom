@@ -1,8 +1,10 @@
 recipe:
   Rx: squirrel
+  args:
+    - custom=squirrel
   description: squirrel custom config
 
 path_files:
-  squirrel.custom.yaml:
+  ${custom:-squirrel}.custom.yaml:
     - patch/+:
       __include: squirrel.custom:/patch
