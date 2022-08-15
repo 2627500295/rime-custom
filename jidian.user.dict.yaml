@@ -2,8 +2,8 @@
 
 ---
 name: jidian.user
-version: "2019-01-20"
-last_edit_time: "2021-08-07"
+version: "v1.0.0.220815"
+last_edit_time: "2022-08-15"
 dict_grouped: true # 词库管理应用识别：标记该码表为分组模式
 sort: original
   # 码表的排序方式
