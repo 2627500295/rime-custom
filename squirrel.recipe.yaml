@@ -5,7 +5,7 @@ recipe:
 path_files:
   squirrel.custom.yaml:
     - patch/+:
-      style:
+      style/+/+:
         color_scheme: roseo                       # 颜色主题
         alpha: 1.0                                # 窗口透明度
         base_offset: 0                            # 文字基线
@@ -39,7 +39,7 @@ path_files:
         spacing: 10
         text_orientation: horizontal
 
-      preset_color_schemes:
+      preset_color_schemes/+/+:
         roseo: # 玫红字体
           name: 玫红
           author: "KyleBing <https://kylebing.cn>"
